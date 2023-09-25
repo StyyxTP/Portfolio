@@ -5,7 +5,7 @@ themeToggleBtn.addEventListener('click', () => {
 });
 
 
-// permet de faire apparaitre mes items choisis
+// permet de faire apparaitre mes items (images) choisis
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
